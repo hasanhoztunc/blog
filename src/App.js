@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hasan Oztuncs Blog with React and Github Pages
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          About Me
-        </a>
-      </header>
+        <h6>
+          This is Hasan Oztunc's personal blog.
+        </h6>
     </div>
   );
 }
+
+
 
 export default App;
