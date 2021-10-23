@@ -17,6 +17,7 @@
     "reactstrap": "^8.10.0",
     "redux": "^4.1.1",
     "redux-thunk": "^2.3.0",
+    "typeface-roboto": "^1.1.13",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

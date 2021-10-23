@@ -1,15 +1,17 @@
 import React from "react";
 
+import styles from "./App.module.css";
+
+import NavBar from "./components/NavBar/NavBar";
+import Home from "./views/Home/Home";
+
 const App = () => {
   return (
-    <div className="App">
-        <h6>
-          This is Hasan Oztunc's personal blog.
-        </h6>
+    <div className={styles.App}>
+      <NavBar />
+      <Home />
     </div>
   );
-}
-
-
+};
 
 export default App;
