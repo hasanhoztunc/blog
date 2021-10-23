@@ -1,0 +1,18 @@
+.container {
+  font-size: 21px;
+  background-color: #393d3f;
+  color: #fdfdff;
+  font-family: "Roboto";
+}
+.navContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15%;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
