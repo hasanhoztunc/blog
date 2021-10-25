@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./App.module.css";
 
-import NavBar from "./components/NavBar/NavBar";
+import NavBar from "./components/app/NavBar/NavBar";
 import Home from "./views/Home/Home";
 
 const App = () => {

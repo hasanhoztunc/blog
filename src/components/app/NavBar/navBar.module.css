@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding-top: 40px;
+}
+.navItem {
+  padding: 0px 20px;
+}
+.blogTitle {
+  font-weight: 600;
+}
