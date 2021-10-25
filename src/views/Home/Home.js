@@ -1,15 +1,15 @@
 import React from "react";
 import styles from "./Home.module.css";
 
-import HomeBlog from "../../components/HomeBlog/HomeBlog";
+import HomeBlog from "../../components/app/HomeBlog/HomeBlog";
 
 const Home = () => {
   return (
     <div className={styles.homeWrapper}>
-      <HomeBlog />
-      <HomeBlog />
-      <HomeBlog />
-      <HomeBlog />
+      <div className={styles.home}>
+        <HomeBlog />
+        <HomeBlog />
+      </div>
     </div>
   );
 };

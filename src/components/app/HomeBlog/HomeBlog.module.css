@@ -1,0 +1,31 @@
+.homeBlog {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 0px 18px 18px;
+}
+.topInfo {
+  display: flex;
+  flex-direction: row;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+}
+.readTime {
+  color: #949799;
+}
+.blogTitle {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 8px 0px;
+  line-height: 26px;
+}
+.blogSummary {
+  color: #949799;
+  font-size: 12px;
+  line-height: 12px;
+}
